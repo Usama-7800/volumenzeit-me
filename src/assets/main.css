@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1;
+  font-size: 0.875rem;
+  line-height: 1;
+}
