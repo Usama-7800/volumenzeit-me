@@ -37,10 +37,10 @@ const toggleMenu = () => {
             <RouterLink to="/watches" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === '/watches' }" data-goto-top="120" data-goto=".watches">Watches</RouterLink>
           </li>
           <li data-aos="fade-right" data-aos-delay="150">
-            <RouterLink to="/jewelry" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === '/features' }" data-goto-top="120" data-goto=".features">Jewelry</RouterLink>
+            <RouterLink to="/jewelry" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === '/jewelry' }" data-goto-top="120" data-goto=".features">Jewelry</RouterLink>
           </li>
           <li data-aos="fade-right" data-aos-delay="200">
-            <RouterLink to="/accessories" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === '/our-mission' }" data-goto-top="120" data-goto=".mission">Accessories</RouterLink>
+            <RouterLink to="/accessories" :class="{ 'border-b border-customPurple pb-4 text-black transition-colors': route.path === '/accessories' }" data-goto-top="120" data-goto=".mission">Accessories</RouterLink>
           </li>
         </ul>
       </nav>
